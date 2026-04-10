@@ -56,7 +56,7 @@ jobs:
 
     # Step E: (Optional Future Step) Run Tests
     # Usually, the next step would be `npm test` if you had tests written.
-    # - name: Run tests
-    #   run: |
-    #     cd user-service
-    #     npm test
+    - name: Run tests
+      run: |
+        cd user-service
+        npm test
