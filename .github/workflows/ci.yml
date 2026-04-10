@@ -58,5 +58,5 @@ jobs:
     # Usually, the next step would be `npm test` if you had tests written.
     - name: Run tests
       run: |
-        cd user-service
+        cd medimesh-bff
         npm test
