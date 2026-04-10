@@ -48,9 +48,9 @@ jobs:
 
     # Step D: Install dependencies for the user-service
     # We navigate to the user-service folder and run npm install.
-    - name: Install dependencies (User Service)
+    - name: Install dependencies (medimesh-bff)
       run: |
-        cd user-service
+        cd medimesh-bff
         npm install
         echo "Dependencies installed successfully!"
 
